@@ -1,0 +1,372 @@
+
+body {
+    background: url("../../img/resourses/background.png") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h1 {
+    color: white;
+}
+
+#owl-kitchens .item img {
+    display: block;
+    max-height: 425px;
+    max-width: 100%;
+
+}
+
+#owl-kitchens .phone {
+    border: 1px dashed;
+    font-size: 1.2em;
+    line-height: 47px;
+}
+
+#owl-kitchens .dash:hover {
+    background: rgba(0, 0, 0, 0.46);
+}
+
+#owl-kitchens a:hover {
+    color: #BBB9B9;
+    text-shadow: 0px 0px 22px brown;
+    text-decoration: none;
+}
+
+#owl-kitchens a {
+    color: #fff;
+}
+
+.colorOrange {
+    color: #E09203;
+}
+
+.colorBlue {
+    color: #2274ff;
+}
+
+.caption {
+    color: white;
+}
+
+.container {
+    background: rgba(165, 42, 42, 0.28);
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+/*services*/
+.newPadding {
+    padding-left: 25px;
+}
+
+.aBlue:hover {
+    background: #2274ff;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.aBlue {
+    border: 1px solid;
+    color: #2274ff;
+    padding: 3%;
+}
+
+.aOrange:hover {
+    background: #E09203;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.aOrange {
+    border: 1px solid;
+    color: #E09203;
+    padding: 3%;
+}
+
+.backgroundServices {
+    background: #FBFBFB;
+    min-height: 442px;
+    padding: 1%;
+}
+
+#services li {
+    list-style: none;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*endServices*/
+
+/*promo*/
+#promo .panel-group .panel {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: 0;
+}
+
+.itemPopular a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.itemPopular a {
+    text-decoration: none;
+}
+
+/*end promo*/
+/*footer*/
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-fluid {
+    box-shadow: 0 5px 13px -4px #000;
+}
+
+/*end footer*/
+
+/*publicity*/
+.publicity ul{
+    list-style: none;
+    color: #E2D1B1;
+}
+/*end publicity*/
+@media (min-width: 1200px) {
+    /*navbar*/
+    .navbar-default {
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #000;
+        font-weight: bold;
+        background-color: #FBFBFB;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #FBFBFB;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: #555;
+        background-color: #FBFBFB;
+    }
+
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+        color: #777;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-brand {
+        color: #FBFBFB;
+    }
+
+    /*end navbar*/
+    h1 {
+        padding: 1% 1% 2% 1%;
+    }
+
+    /*carousel*/
+    #owl-kitchens .owl-item {
+        background-color: rgba(0, 0, 0, 0.81);
+    }
+
+    #owl-kitchens .owl-controls .owl-page span {
+        background: #81796F;
+        height: 20px;
+        width: 20px;
+
+    }
+
+    #owl-kitchens .item img {
+        padding: 1px 1px 1px 1px;
+    }
+
+    /*end carousel*/
+    /*promo*/
+    .backgroundPopularChildDetails {
+        background: #817a70;
+        box-shadow: 11px 11px 38px black;
+        color: white;
+        padding-top: 1px;
+    }
+
+    .backgroundPopularChild {
+        background: #FBFBFB;
+        box-shadow: 11px 11px 38px black;
+        padding-top: 1%;
+    }
+
+    .backgroundPopularChildDetails a {
+        text-decoration: none;
+    }
+
+    .backgroundPopularChildDetails a:visited, .backgroundPopularChildDetails a:hover, .backgroundPopularChildDetails a:active {
+        text-decoration: none;
+        text-shadow: 1px 2px 2px #000;
+    }
+
+    .itemPopular.itemPopularMiddle:hover {
+        background: #696969;
+        color: white;
+    }
+
+    .itemPopular.itemPopular:hover {
+        background: #696969;
+        color: white;
+    }
+
+    .itemPopular {
+        background-color: #EFEFEF;
+        min-height: 97px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .itemPopularMiddle {
+        background-color: #E6E1E1;
+    }
+
+    .footerOrange a, .footerBlue a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footerBlue {
+        background-color: #2274ff;
+        padding: 2%;
+        font-size: 1.2em;
+    }
+
+    .footerOrange {
+        background-color: #E09203;
+        padding: 2%;
+        font-size: 1.2em;
+    }
+
+    .itemPopular span {
+        padding-top: 3%;
+    }
+
+    .itemPopular img {
+        padding-left: 0;
+    }
+
+    #promo .panel-default > .panel-heading {
+        background-color: #817a70;
+    }
+
+    #promo .panel-title a {
+        color: white;
+    }
+
+    #promo .panel-title {
+        line-height: 1.4em;
+    }
+
+    #promo .panel-heading {
+        border-radius: 0;
+    }
+
+    #promo .panel-body {
+        background-color: rgba(45, 44, 44, 0.71);
+    }
+
+    #promo h3 {
+        text-transform: uppercase;
+    }
+
+    /*promo*/
+    /*titleH1*/
+    #titleH1 {
+        background-color: #81796F;
+    }
+
+    /*end titleH1*/
+    /*info*/
+    #info {
+        color: white;
+        background-color: #81796F;
+    }
+
+    /*publicity*/
+    .publicity{
+        padding: 1% 0% 3% 0%;
+    }
+    .publicity ul{
+        list-style: none;
+        font-size: 1.4em;
+    }
+    .phoneWhite a:hover{
+        text-decoration: none;
+        color: #E09203;
+        text-shadow: 0px 0px 6px #020202;
+    }
+    .phoneWhite a{
+        color: white;
+        font-size: 2em;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .freeEvaluate{
+        font-size: 2.2em;
+    }
+    /*end publicity*/
+    /*end info*/
+    /*socialNetwork*/
+    #socialNetwork {
+        background-color: #81796F;
+        padding: 5% 1%;
+        color: white;
+    }
+
+    /*end socialNetwork*/
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+

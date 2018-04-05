@@ -1,0 +1,151 @@
+
+
+.contnedor {
+    padding: 20px 20px 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.contnedor li {
+    display: inline-block;
+    width: 216px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+}
+
+
+.contnedor figure {
+    margin: 0;
+    position: relative;
+}
+
+.contnedor figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+.contnedor figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: rgba(0, 102, 204, 0.8);
+    color: #ed4e6e;
+}
+
+
+figcaption span {
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    text-align: justify;
+    margin: 12px 0;
+}
+
+.contnedor figcaption h3 {
+    border-bottom: 1px solid #FFFAFA;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 14px 17px 5px;
+}
+
+
+.contnedor figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #0099ff;
+    color: #fff;
+
+}
+
+
+/* Caption animación*/
+
+
+.caption li {
+    -webkit-perspective: 1800px;
+    -moz-perspective: 1800px;
+    perspective: 1800px;
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 0%;
+    perspective-origin: 0 0%;
+}
+
+.caption figure {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.caption figure > div {
+    overflow: hidden;
+}
+
+.caption figure img {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.caption figure:hover img
+{
+    cursor: pointer;
+}
+
+
+
+.caption figcaption {
+    width: 93%;
+    height: 100%;
+    border-radius:50% ;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+
+.caption figure:hover figcaption{
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+
+
+.caption figcaption a {
+    position: absolute;
+    bottom: 20px;
+    right: 66px;
+}
+
+
+
+.btn_hover:hover {
+    text-decoration: none;
+    background: #0066cc;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
